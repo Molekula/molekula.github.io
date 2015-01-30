@@ -1,0 +1,47 @@
+/**
+ * Box sizing.
+ */
+.box-sizing {
+	box-sizing: border-box;
+}
+
+/**
+ * Border radius.
+ */
+.border-radius(@params) {
+	border-radius: @params;
+}
+
+/**
+ * Box shadow.
+ */
+.box-shadow(@params) {
+	-webkit-box-shadow: @params;
+	-moz-box-shadow: @params;
+	-o-box-shadow: @params;
+	box-shadow: @params;
+}
+
+/**
+ * Clearfix.
+ */
+.clearfix {
+	*zoom: 	1;
+	clear:	both;
+
+	&:before, &:after {
+		content: ' ';
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+/**
+ * Text shadow.
+ */
+.text-shadow(@params) {
+	text-shadow: @params;
+}

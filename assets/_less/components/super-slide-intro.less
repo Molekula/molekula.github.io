@@ -1,0 +1,147 @@
+.super-slide-intro {
+	height:		294px;
+	position:	absolute;
+	top:		50%;
+	width:		100%;
+	margin-top: -137px;
+
+	.text {
+		padding-left:	30px;
+		border-left:	5px solid #fff;
+		display:		block;
+		width:			700px;
+		margin:			0 auto;
+		//margin-top:		100px;
+
+		h2 {
+			.text-shadow(0 2px 2px rgba(0, 0, 0, .3));
+			display:		block;
+			color:			#fff;
+			text-transform:	uppercase;
+			text-align: 	left;
+			font-size:		3em;
+			font-weight: 	800;
+			margin:			0;
+		}
+
+		p {
+			.text-shadow(0 2px 2px rgba(0, 0, 0, .3));
+			display:		block;
+			text-align: 	left;
+			color:			#fff;
+			text-transform:	uppercase;
+			font-size:		1.4em;
+			margin:			0;
+			font-weight:	200;
+			letter-spacing: 1px;
+			font-family:	"Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-align: 	justify;
+		}
+
+		&.shaded {
+			background:	rgba(0, 0, 0, .4);
+			padding:	30px;
+		}
+	}
+
+	.search {
+		.clearfix;
+		display:	block;
+		width:		700px;
+		margin:		40px auto 0 auto;
+
+		input {
+			display:	inline-block;
+			float:		left;
+		}
+
+		input[type=text] {
+			.border-radius(5px);
+			width:		100%;
+			border:		none;
+			padding:	15px;
+			outline:	none;
+			font-size:	1.4em;
+			.box-shadow(inset 0 -3px 0 rgba(0, 0, 0, .1));
+		}
+
+		input[type=submit] {
+			.border-radius(5px);
+			.box-shadow(inset 0 -3px 0 rgba(0, 0, 0, .1));
+			display:		none;
+			float:			left;
+			margin-left:	20px;
+			border:			none;
+			padding:		15px;
+			width:			100px;
+			background:		@header_bg_colour;
+			color:			#fff;
+
+			&:hover {
+				background:	#555;
+			}
+		}
+
+		&.alt {
+			.input-group {
+				border:			3px solid rgba(255, 255, 255, .5);
+			}
+
+			.input-group-addon {
+				background:	none;
+				border:		none;
+				color:		#fff;
+				text-align: center;
+				padding:	0 25px;
+				color: 		rgba(255, 255, 255, .6);
+				font-size:	1.3em;
+				cursor:		text;
+			}
+
+			input[type=text] {
+				.box-shadow(none);
+				.border-radius(0);
+				background:		none;
+				color:			#fff;
+				text-shadow: 	0 1px 1px rgba(0, 0, 0, .2);
+				background:		none;
+				padding:		15px 15px 15px 0;
+
+				&::-webkit-input-placeholder {
+					color: 	rgba(255, 255, 255, .6);
+				}
+			}
+		}
+	}
+
+	.about {
+		display:	block;
+		margin-top:	40px;
+		text-align: center;
+
+		a {
+			.border-radius(5px);
+			display:		block;
+			margin:			0;
+			color:			#fff;
+			text-shadow:	0 1px 1px rgba(0, 0, 0, .3);
+			background:		rgba(0, 0, 0, .3);
+			width:			270px;
+			text-align: 	center;
+			margin:			0 auto;
+			padding:		15px 0;
+			line-height:	100%;
+			font-size:		1.2em;
+			text-transform: none;
+
+			&:hover {
+				text-decoration:	none;
+				background:			rgba(0, 0, 0, .5);
+			}
+
+			span {
+				margin-right:	10px;
+			}
+		}
+	}
+}
