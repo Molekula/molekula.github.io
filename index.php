@@ -74,128 +74,104 @@
 						</div>
 					</div>
 					<div class="shop">
-						<div class="row container">
-							<div class="col-md-3">
-								<aside>
-									<div class="inner">
-										<h2>Filter Results</h2>
-										<select name="stocked">
-											<option>All</option>
-											<option>In Stock Only</option>
-										</select>
-									</div>
-									<h3>Choose Category</h3>
-									<div class="inner">
-										<ul class="categories">
-											<li class="active"><span class="active-blob"></span><p>Acids</p><span class="notif">30</span></li>
-											<li><span class="active-blob"></span><p>Carbohydrates</p><span class="notif">11</span></li>
-											<li><span class="active-blob"></span><p>Pyrazines</p><span class="notif">163</span></li>
-											<li><span class="active-blob"></span><p>Sugars</p><span class="notif">97</span></li>
-										</ul>
-									</div>
-									<h3>Price Range</h3>
-								</aside>
-							</div>
-							<div class="col-md-9">
-								<div class="product col-md-4">
-									<div class="inner">
-										<ul class="pricing">
-											<li>&pound;16.99/g</li>
-											<li>&pound;21.99/5g</li>
-										</ul>
-										<img src="http://molekula.com/chemicals/structure/14503427.pagespeed.ce.E-4jcmIegG.gif" />
-										<div class="overlay">
-											<h2>Amino Acid</h2>
-											<p>67-64-1 | C3H6 | 74884736</p>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-3">
+									<aside>
+										<div class="inner">
+											<h2>Filter Results</h2>
+											<select name="stocked">
+												<option>All</option>
+												<option>In Stock Only</option>
+											</select>
 										</div>
-										<div class="add-to-cart">
-											<a href="#" class="btn btn-primary">Add to cart</a>
+										<h3>Choose Category</h3>
+										<div class="inner">
+											<ul class="categories">
+												<li class="active"><span class="active-blob"></span><p>Acids</p><span class="notif">30</span></li>
+												<li><span class="active-blob"></span><p>Carbohydrates</p><span class="notif">11</span></li>
+												<li><span class="active-blob"></span><p>Pyrazines</p><span class="notif">163</span></li>
+												<li><span class="active-blob"></span><p>Sugars</p><span class="notif">97</span></li>
+												<li><span class="active-blob"></span><p>Acids</p><span class="notif">30</span></li>
+												<li><span class="active-blob"></span><p>Carbohydrates</p><span class="notif">11</span></li>
+												<li><span class="active-blob"></span><p>Pyrazines</p><span class="notif">163</span></li>
+												<li><span class="active-blob"></span><p>Sugars</p><span class="notif">97</span></li>
+												<li><span class="active-blob"></span><p>Acids</p><span class="notif">30</span></li>
+												<li><span class="active-blob"></span><p>Carbohydrates</p><span class="notif">11</span></li>
+												<li><span class="active-blob"></span><p>Pyrazines</p><span class="notif">163</span></li>
+												<li><span class="active-blob"></span><p>Sugars</p><span class="notif">97</span></li>
+												<li><span class="active-blob"></span><p>Acids</p><span class="notif">30</span></li>
+												<li><span class="active-blob"></span><p>Carbohydrates</p><span class="notif">11</span></li>
+												<li><span class="active-blob"></span><p>Pyrazines</p><span class="notif">163</span></li>
+												<li><span class="active-blob"></span><p>Sugars</p><span class="notif">97</span></li>
+												<li><span class="active-blob"></span><p>Acids</p><span class="notif">30</span></li>
+												<li><span class="active-blob"></span><p>Carbohydrates</p><span class="notif">11</span></li>
+												<li><span class="active-blob"></span><p>Pyrazines</p><span class="notif">163</span></li>
+												<li><span class="active-blob"></span><p>Sugars</p><span class="notif">97</span></li>
+												<li><span class="active-blob"></span><p>Acids</p><span class="notif">30</span></li>
+												<li><span class="active-blob"></span><p>Carbohydrates</p><span class="notif">11</span></li>
+												<li><span class="active-blob"></span><p>Pyrazines</p><span class="notif">163</span></li>
+												<li><span class="active-blob"></span><p>Sugars</p><span class="notif">97</span></li>
+											</ul>
 										</div>
-									</div>
+										<h3>Price Range</h3>
+									</aside>
 								</div>
-
-								<div class="product col-md-4">
-									<div class="inner">
-										<ul class="pricing">
-											<li>&pound;16.99/g</li>
-											<li>&pound;21.99/5g</li>
-										</ul>
-										<img src="http://molekula.com/chemicals/structure/14503427.pagespeed.ce.E-4jcmIegG.gif" />
-										<div class="overlay">
-											<h2>Amino Acid</h2>
-											<p>67-64-1 | C3H6 | 74884736</p>
-										</div>
-										<div class="add-to-cart">
-											<a href="#" class="btn btn-primary">Add to cart</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="product col-md-4">
-									<div class="inner">
-										<ul class="pricing">
-											<li>&pound;16.99/g</li>
-											<li>&pound;21.99/5g</li>
-										</ul>
-										<img src="http://molekula.com/chemicals/structure/14503427.pagespeed.ce.E-4jcmIegG.gif" />
-										<div class="overlay">
-											<h2>Amino Acid</h2>
-											<p>67-64-1 | C3H6 | 74884736</p>
-										</div>
-										<div class="add-to-cart">
-											<a href="#" class="btn btn-primary">Add to cart</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="product col-md-4">
-									<div class="inner">
-										<ul class="pricing">
-											<li>&pound;16.99/g</li>
-											<li>&pound;21.99/5g</li>
-										</ul>
-										<img src="http://molekula.com/chemicals/structure/14503427.pagespeed.ce.E-4jcmIegG.gif" />
-										<div class="overlay">
-											<h2>Amino Acid</h2>
-											<p>67-64-1 | C3H6 | 74884736</p>
-										</div>
-										<div class="add-to-cart">
-											<a href="#" class="btn btn-primary">Add to cart</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="product col-md-4">
-									<div class="inner">
-										<ul class="pricing">
-											<li>&pound;16.99/g</li>
-											<li>&pound;21.99/5g</li>
-										</ul>
-										<img src="http://molekula.com/chemicals/structure/14503427.pagespeed.ce.E-4jcmIegG.gif" />
-										<div class="overlay">
-											<h2>Amino Acid</h2>
-											<p>67-64-1 | C3H6 | 74884736</p>
-										</div>
-										<div class="add-to-cart">
-											<a href="#" class="btn btn-primary">Add to cart</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="product col-md-4">
-									<div class="inner">
-										<ul class="pricing">
-											<li>&pound;16.99/g</li>
-											<li>&pound;21.99/5g</li>
-										</ul>
-										<img src="http://molekula.com/chemicals/structure/14503427.pagespeed.ce.E-4jcmIegG.gif" />
-										<div class="overlay">
-											<h2>Amino Acid</h2>
-											<p>67-64-1 | C3H6 | 74884736</p>
-										</div>
-										<div class="add-to-cart">
-											<a href="#" class="btn btn-primary">Add to cart</a>
-										</div>
+								<div class="col-md-9">
+									<div class="row">
+										<?php for($i = 0; $i < 6; $i++): ?>
+											<div class="product col-md-6">
+												<div class="inner">
+													<div class="title"><h2>Amino Acid</h2></div>
+													<img src="http://molekula.com/chemicals/structure/14503427.pagespeed.ce.E-4jcmIegG.gif" />
+													<ul class="actions">
+														<li class="cost"><a href="#">&pound;25/g</a></li>
+														<li class="cost"><a href="#">&pound;45/2g</a></li>
+														<li class="cost"><a href="#">&pound;80/4g</a></li>
+														<li class="bulk"><a href="#">Bulk available</a></li>
+													</ul>
+													<div class="overlay">
+														<div class="title"><h2>Add to cart</h2></div>
+														<div class="inner">
+															<h3>Amino Acid</h3>
+															<h4>Categories: <span>Acids, Liquids</span></h4>
+															<p>This product is also available in bulk, for more information <a href="#">go here</a>.</p>
+															<!--<span class="rating">
+																<span class="glyphicon glyphicon-star"></span>
+																<span class="glyphicon glyphicon-star"></span>
+																<span class="glyphicon glyphicon-star"></span>
+																<span class="glyphicon glyphicon-star"></span>
+																<span class="glyphicon glyphicon-star-empty"></span>
+															</span>-->
+															<div class="options">
+																<div class="pair">
+																	<label for="pack">Pack:</label>
+																	<select name="pack">
+																		<option>&pound;25.00/g</option>
+																		<option>&pound;45.00/2g</option>
+																		<option>&pound;80.00/5g</option>
+																	</select>
+																</div>
+																<div class="pair">
+																	<label for="shipping">Shipping:</label>
+																	<select name="shipping">
+																		<option>First Class (Next Day)</option>
+																		<option>Second Class (1-5 working days)</option>
+																	</select>
+																</div>
+																<div class="pair">
+																	<label for="quantity">Quantity:</label>
+																	<input type="number" value="1" />
+																</div>
+															</div>
+															<div class="buy">
+																<a href="#" class="btn btn-primary">Add to cart <span class="glyphicon glyphicon-credit-card"></span></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										<?php endfor; ?>
 									</div>
 								</div>
 							</div>
@@ -305,5 +281,6 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 		<script src="assets/js/modules/page-slide.js"></script>
+		<script src="assets/js/modules/product.js"></script>
 	</body>
 </html>
