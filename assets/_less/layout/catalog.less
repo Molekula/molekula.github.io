@@ -6,9 +6,126 @@
 
 	// Shop.
 	.shop {
-		display:	block;
-		background:	#f7f5f4;
-		padding:	50px;
+		display:		block;
+		background:		#f7f5f4;
+		padding:		50px;
+		font-family: 	"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+		// Sidebar.
+		aside {
+			display: 	block;
+			background:	#fff;
+				.box-shadow(0 0 2px 2px rgba(0, 0, 0, .08));
+
+			.inner {
+				display:	block;
+				padding:	15px;
+			}
+
+			h2 {
+				display:		block;
+				text-align: 	center;
+				font-size:		1.2em;
+				margin:			0;
+				padding:		0;
+				font-weight:	200;
+			}
+
+			select {
+				display:	block;
+				margin:		20px 0 0 0;
+				border:		1px solid #aaa;
+				width:		100%;
+				padding:	10px;
+			}
+
+			h3 {
+				display:		block;
+				text-align:		center;
+				padding:		15px;
+				background:		#4a505c;
+				color:			#fff;
+				font-size:		1em;
+				margin:			0;
+				font-weight:	300;
+				text-transform: uppercase;
+			}
+
+			// Lists.
+			ul {
+				display:	block;
+				margin:		0;
+				padding:	0;
+
+				li {
+					@size:	25px;
+					.clearfix;
+					display:		block;
+					margin-bottom:	10px;
+					cursor:			pointer;
+
+					span.active-blob {
+						.border-radius(@size);
+						display:	inline-block;
+						float:		left;
+						width:		@size;
+						height:		@size;
+						background:	none;
+						border:		1px solid #ccc;
+					}
+
+					p {
+						display:		inline-block;
+						float:			left;
+						height:			@size;
+						line-height:	@size;
+						margin:			0 0 0 10px;
+						color:			#999;
+						font-weight:	200;
+					}
+
+					span.notif {
+						.border-radius(10px);
+						display:		inline-block;
+						float:			right;
+						height:			@size - 5;
+						padding:		0 10px;
+						line-height:	@size - 5;
+						border:			1px solid #ccc;
+						color:			#ccc;
+						font-size:		0.8em;
+						margin:			2.5px 0;
+					}
+
+					&.active {
+						.active-blob, .notif {
+							background:		#49b956 !important;
+							border-color:	#49b956 !important;
+							color:			#fff !important;
+						}
+
+						p {
+							color:	#999 !important;
+						}
+					}
+
+					&:last-of-type {
+						margin-bottom:	0;
+					}
+
+					&:hover {
+						.active-blob, .notif {
+							border-color:	#888;
+							color:			#888;
+						}
+
+						p {
+							color:	#444;
+						}
+					}
+				}
+			}
+		}
 
 		// Product.
 		.product {
@@ -17,7 +134,7 @@
 
 			.inner {
 				.box-shadow(0 3px 3px rgba(0, 0, 0, .3));
-				padding:	10px;
+				padding:	30px;
 				background:	#fff;
 				position:	relative;
 			}
@@ -35,6 +152,7 @@
 				left:		0;
 				padding:	0;
 				margin:		0;
+				z-index:	99;
 
 				li {
 					display:	inline-block;
@@ -57,16 +175,15 @@
 				width:		100%;
 				bottom:		0;
 				left:		0;
-				padding:	20px;
+				padding:	15px;
 				background:	#f9f9f9;
 				border-top:	1px solid #eee;
-				font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 				h2 {
 					display:		block;
 					padding:		0;
 					margin:			0;
-					font-size:		1.4em;
+					font-size:		1.2em;
 					color:			#333;
 					text-transform:	uppercase;
 					font-weight:	900;
@@ -86,11 +203,12 @@
 				display:	none;
 				width:		100%;
 				height:		100%;
-				background:	rgba(0, 0, 0, .7);
+				background:	rgba(0, 0, 0, .5);
 				position:	absolute;
 				top:		0;
 				left:		0;
 				text-align: center;
+				z-index:	98;
 
 				a {
 					position:		absolute;
