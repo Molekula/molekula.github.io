@@ -50,14 +50,12 @@ $(document).ready(function() {
 			}, 300, function() {
 				$('.page-slide .slide-images li.active').removeClass('active');
 				$('.page-slide .slide-images li#image-' + page).addClass('active');
-
-				// Slide to the top of the page.
-		$('html, body').animate({
-			'scrollTop':'0px'
-		}, 300);
 			});
 		}
 
 	});
+
+	console.log($('.page:first').css('height'));
+	$('body, .slide-wrapper').css('height', $('.page:first').css('height'));
 
 });
